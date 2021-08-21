@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(14, 14, 14);
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(217deg, rgba(48, 59, 219, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(400deg, rgba(73, 25, 25, 0.884), rgba(236, 0, 0, 0)70.71%), linear-gradient(290deg, rgba(241, 7, 7, 0.692), rgb(23, 35, 201) 70.71%);
+    border-radius: 10px;
+    margin: 150px auto;
+}
+
+.form-container {
+    padding-top: 30%;
+    padding-left: 25%;
+}
+
+label {
+    display: block;
+}
+
+input {
+    border-radius: 5px;
+    border-width: 0px;
+    background: rgb(54, 52, 97);
+    background-color: transparent;
+    border: 0px solid;
+    height: 30px;
+    width: 260px;
+    outline: none;
+    color: #fff;
+}
+
+input[placeholder] {
+    font-size: 13px;
+}
+
+input:focus {
+    background-color: transparent;
+    border: 0px solid;
+    height: 30px;
+    width: 260px;
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.text,
+.password {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.fas {
+    color: rgb(0, 0, 0);
+}
+
+.linee {
+    border: rgb(121, 119, 119) solid 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 200px;
+}
+
+.button button {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 10px 80px;
+    background: rgba(231, 19, 178, 0.884);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.button button:hover {
+    background: rgba(230, 10, 175, 0.979)
+}
