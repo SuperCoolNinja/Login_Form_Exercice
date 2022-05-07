@@ -1,86 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 body {
-    margin: 0;
-    padding: 0;
-    background: rgb(14, 14, 14);
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(41, 64, 158);
+  font-family: "Montserrat", sans-serif;
 }
 
 .main-container {
-    width: 400px;
-    height: 400px;
-    background: linear-gradient(217deg, rgba(48, 59, 219, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(400deg, rgba(73, 25, 25, 0.884), rgba(236, 0, 0, 0)70.71%), linear-gradient(290deg, rgba(241, 7, 7, 0.692), rgb(23, 35, 201) 70.71%);
-    border-radius: 10px;
-    margin: 150px auto;
+  width: 400px;
+  height: 400px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 150px auto;
 }
 
 .form-container {
-    padding-top: 30%;
-    padding-left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.centerElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+h3 {
+  font-size: 32px;
+  padding-top: 5%;
 }
 
 label {
-    display: block;
+  display: block;
 }
 
 input {
-    border-radius: 5px;
-    border-width: 0px;
-    background: rgb(54, 52, 97);
-    background-color: transparent;
-    border: 0px solid;
-    height: 30px;
-    width: 260px;
-    outline: none;
-    color: #fff;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: transparent;
+  border: 0px solid;
+  height: 30px;
+  width: 260px;
+  outline: none;
+  color: rgb(0, 0, 0);
 }
 
 input[placeholder] {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 input:focus {
-    background-color: transparent;
-    border: 0px solid;
-    height: 30px;
-    width: 260px;
-    outline: none;
+  background-color: transparent;
+  border: 0px solid;
+  height: 30px;
+  width: 260px;
+  outline: none;
 }
 
 ::placeholder {
-    color: #fff;
+  font-size: 12px;
+  color: rgba(74, 74, 74, 0.592)
 }
 
 .text,
 .password {
-    padding-top: 10px;
-    font-size: 12px;
-    font-weight: bold;
-    color: #fff;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 13px;
+  color: rgb(28, 28, 28);
 }
 
 .fas {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .linee {
-    border: rgb(121, 119, 119) solid 1px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 0px;
-    width: 200px;
+  border: rgba(74, 74, 74, 0.592) solid 1px;
+  border-radius: 5px;
 }
 
 .button button {
-    border-radius: 5px;
-    font-size: 17px;
-    margin-top: 10px;
-    padding: 10px 80px;
-    background: rgba(231, 19, 178, 0.884);
-    border: 1px solid #fff;
-    color: #fff;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-top: 10px;
+  padding: 10px 80px;
+  background: rgb(0, 128, 255);
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 .button button:hover {
-    background: rgba(230, 10, 175, 0.979)
+  background: rgb(0, 162, 255);
 }
